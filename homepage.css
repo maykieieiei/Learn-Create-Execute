@@ -1,0 +1,272 @@
+body{
+    background-color: white;    
+}
+
+.topnav {
+    display: block;
+    color: rgb(255, 255, 255);
+    float: left;
+    height: 40px;
+    width: 99.2%;
+    padding: 7px;
+    background-color: #4b5945;
+    border-radius: 10px;
+}
+
+.topnav a{
+    text-align: center;
+    padding: 10px;
+    padding-left: 14px;
+    padding-right: 20px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    font-style: bold;
+    color:#EDE8DC;
+}
+
+.topnav a:hover {
+    background-color: #E7E0C9;
+    color: #4b5945;
+    border-radius: 10px;
+}
+
+input[type=text] {
+  width: 30%;
+  height: auto;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: serif;
+  background-color: white;
+  padding: 12px 20px 12px 40px;
+
+}
+
+.searchbar {
+   text-align: left;    
+  max-width: px;  
+  width: 90%;
+  height: auto;
+
+}
+
+label{ 
+  color: #3F4F44;
+    font-size: 150%;
+    font-family: serif;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.button:hover{
+  color: #4b5945}
+
+button{ 
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  font-family: serif;
+  color: #fff;
+  background-color: #4b5945;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 3px 4px #727272;
+  width: 200px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.button:active {
+  background-color: #522546;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.header {
+  padding: 100px;
+  text-align: center;
+  height: 435px;
+  width: 89.2%;
+  background-image: url("Data Sources/bg1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: 100%;
+  background-position-y: 100%;
+}
+
+.header a{ 
+  font-family: serif;
+  font-size: 17px;
+  color: #385170;
+}
+
+.header a:hover{
+  color: #4b5945;
+}
+
+.content { 
+  width: 98%;
+ height: 450px;
+ font-size: 110%;
+ padding: 15px;
+
+}
+
+h1{
+    color: #4b5945;
+    font-family: serif;
+    margin-left: 20px;
+
+}
+
+h3{
+  color: #4b5945;
+  font-style: serif;
+  text-align: center  ;
+  padding: 10px;
+}
+
+h4{
+  color: #4b5945;
+  font-style: serif;
+  text-align: center  ;
+  padding: 10px;
+}
+
+p{
+    color: #4b5945;
+    font-size: 150%;
+    font-style: serif;    
+    padding-left: 15px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+  .center {
+    align-items: center;
+  }
+
+  iframe { 
+  float: right;
+  background-color: white;
+  padding-top: 20px;
+  padding-right: 11px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  border-radius: 15px;
+  height: 358px;
+  width: 39%;
+  border: none;
+  border: solid 2px #4b5945;
+  position: absolute;
+  right: 80px;
+  margin-top: 30px;
+}
+
+.cardone {
+   width: 92.4%;
+  height: 550px;
+  background-color: white;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  float: center;
+  background-image: url("Data Sources/bg2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: 100%;
+  background-position-y: 95%
+}
+
+.cardtwo { 
+  width: 92.4%;
+  height: 549px;
+  background-color: white;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  float: center;
+  background-image: url("Data Sources/bg3.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: 100%;
+}
+
+.cardthree {
+  width: 97.2%;
+  height: 550px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  float: center;
+  background-image: url("Data Sources/bg4.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: 100%;
+}
+
+.cardfour {
+  background-color: white;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  float: center;
+  border-radius: 30px;
+  height: 495px;
+  width: 97.3%;
+}
+
+.cardfive {
+  background-color: white;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  float: center;
+  height: 495px;
+  width: 97.3%;
+}
+
+.cardsix {
+  background-color: white;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  float: center;
+  border-radius: 30px;
+  background-image: url("Data Sources/bg6.png");
+  background-repeat: no-repeat;
+  background-size: 101%;
+  background-position-x: 90%;
+  height: 495px;
+  width: 97.3%;
+}
+
+.footer {
+  background-color: #ffffff;
+  color: #3F4F44;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 99%;
+  height: auto;
+}
+
+
+  
+
+  
+
+ 
+

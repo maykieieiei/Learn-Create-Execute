@@ -105,6 +105,7 @@ aside {
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 0px 0px 10px 10px;
+
   } 
 
   aside a {
@@ -135,6 +136,10 @@ aside a:hover {
     float: right;
   }
 
+  a:active {
+    color: #4b5945;
+    background-color: white;
+  }
   .cardone {
    width: 100%;
   height: 350px;

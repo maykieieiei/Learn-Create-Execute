@@ -92,17 +92,7 @@ p{
     text-align: left;   
 }
 
-aside {
-    width: 15%;
-    color: white;
-    height: 100%;
-    background-color: #4b5945;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 0px 0px 10px 10px;
-  } 
-
-  aside a {
+  .sidenav a {
     color: white;
     font-size: 20px;
     font-style: serif;
@@ -113,7 +103,7 @@ aside {
     block-size: 30px;
   } 
 
-aside a:hover {
+.sidenav a:hover {
     color: #4b5945;
     background-color: white;
     width: 100%;
@@ -122,13 +112,22 @@ aside a:hover {
     block-size: 30px;
   }
 
-  .aside a:active{
-    color: #4b5945;
-    background-color: white;
-    width: 100%;
-    display: block;
-    float: right;
-  }
+  .sidenav {
+  height: 100%;             
+  overflow-y: auto;          
+  width: 15%;              
+  background-color: #4b5945;     
+  position: fixed;           
+  width: 15%;
+  color: white;
+  background-color: #4b5945;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.sidenav a.active {
+  background-color: white;
+  color: #4b5945;
+}
 
   .cardone {
    width: 100%;

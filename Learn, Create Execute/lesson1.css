@@ -6,10 +6,11 @@ body{
     display: block;
     color: rgb(255, 255, 255);
     height: 40px;
-    width: 99.2%;
+    width: 84%;
     padding: 7px;
     background-color: #4b5945;
-    border-radius: 10px 10px 10px 0px;
+    border-radius: 10px 10px 10px 10px;
+    float: right;
   }
 
 .topnav a {
@@ -21,12 +22,12 @@ body{
     overflow: hidden;
     float: right;
     font-style: bold;
-    color:#EDE8DC;
+    color: white;
     margin-top: 3px;
 }
 
 .topnav a:hover {
-    background-color: #E7E0C9;
+    background-color: white;
     color: #4b5945;
     border-radius: 10px;
 }
@@ -71,19 +72,20 @@ h1{
 
 }
 
-h3{
-  color: white;
-  font-style: serif;
-  text-align: center  ;
-  padding: 10px;
-}
-
-h4{
+h2{
   color: #4b5945;
   font-style: serif;
   text-align: center  ;
   padding: 10px;
 }
+
+h3{
+  color: #4b5945;
+  font-style: serif;
+  text-align: center  ;
+  padding: 10px;
+}
+
 
 p{
     color: #4b5945;
@@ -92,6 +94,25 @@ p{
     text-align: left;   
 }
 
+
+
+.main {
+  margin-left: 260px; /* space for sidebar */
+  padding: 20px;
+}
+
+ .sidenav {
+  height: 100%;             
+  position: fixed;
+  left: 0;
+  top: -5px;
+  width: 15%;
+  height: 100vh;
+  background-color: #4b5945;
+  color: white;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
   .sidenav a {
     color: white;
     font-size: 20px;
@@ -112,17 +133,6 @@ p{
     block-size: 30px;
   }
 
-  .sidenav {
-  height: 100%;             
-  overflow-y: auto;          
-  width: 15%;              
-  background-color: #4b5945;     
-  position: fixed;           
-  width: 15%;
-  color: white;
-  background-color: #4b5945;
-  border-radius: 0px 0px 10px 10px;
-}
 
 .sidenav a.active {
   background-color: white;
@@ -139,12 +149,22 @@ p{
 
 .cardtwo {
    width: 100%;
-  height: 300%;
+  height: 215%;
   background-color: white;
   border-radius: 15px;
   border: solid 1px #4b5945;
   margin-top: 20px;
 }
+
+.cardthree {
+   width: 100%;
+  height: 120%;
+  background-color: white;
+  border-radius: 15px;
+  border: solid 1px #4b5945;
+  margin-top: 20px;
+}
+
 
  iframe { 
   float: right;
@@ -161,4 +181,32 @@ p{
   position: absolute;
   right: 80px;
   margin-top: 30px;
+}
+
+.button:hover{
+  color: #4b5945}
+
+button{ 
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  font-family: serif;
+  color: #fff;
+  background-color: #4b5945;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 4px #727272;
+  width: 250px;
+  height: auto;
+  margin-left: 680px;
+}
+
+.button:active {
+  background-color: #522546;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

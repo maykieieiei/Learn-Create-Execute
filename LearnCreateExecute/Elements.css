@@ -222,21 +222,21 @@ p{
   margin-top: 20px;
 }
 
- iframe { 
+  iframe { 
   float: right;
   background-color: white;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+  padding-top: 20px;
+  padding-right: 11px;
+  padding-bottom: 20px;
+  padding-left: 10px;
   border-radius: 15px;
-  height: 385px;
-  width: 35%;
+  height: 358px;
+  width: 39%;
   border: none;
   border: solid 2px #4b5945;
   position: absolute;
-  left: 20%
-
+  right: 80px;
+  margin-top: 30px;
 }
 
 .button:hover{

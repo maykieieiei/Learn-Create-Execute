@@ -1,0 +1,235 @@
+body{
+    background-color: white;    
+}
+
+.topnav {
+    display: block;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 84%;
+    padding: 7px;
+    background-color: #4b5945;
+    border-radius: 10px 10px 10px 10px;
+    float: right;
+  }
+
+.topnav a {
+    text-align: center;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    display: block;
+    overflow: hidden;
+    float: right;
+    font-style: bold;
+    color: white;
+    margin-top: 3px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: #4b5945;
+    border-radius: 10px;
+}
+
+.header {
+  text-align: left;
+  height: 1000px;
+  width: 84%;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 85%;
+  float: right;
+  border-radius: 5px;
+  margin-left: 9px;
+  margin-top: 15px;
+  margin-right: 4px;
+}
+
+.header a{ 
+  font-family: serif;
+  font-size: 17px;
+  color: #385170;
+}
+
+.header a:hover{
+  color: #4b5945;
+}
+
+.content { 
+  width: 85%;
+ height: 290px;
+ font-size: 110%;
+ padding: 15px;
+
+}
+
+h1{
+    color: #4b5945;
+    font-family: serif;
+    margin-left: 20px;
+    float: left;
+    padding-left: 20px;
+
+}
+
+h2{
+  color: #4b5945;
+  font-style: serif;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+h3{
+  color: #4b5945;
+  font-style: serif;
+  text-align: center  ;
+  padding: 10px;
+}
+
+
+p{
+    color: #4b5945;
+    font-size: 150%;
+    font-style: serif;    
+    text-align: left;   
+    padding-left: 40px;
+    margin-top: 5px;
+}
+
+.main {
+  margin-left: 260px; /* space for sidebar */
+  padding: 20px;
+}
+
+ .sidenav {
+  height: 100%;             
+  position: fixed;
+  left: 0;
+  top: -5px;
+  width: 15%;
+  height: 100vh;
+  background-color: #4b5945;
+  color: white;
+  overflow-y: auto;
+  scrollbar-width: none;
+  padding-bottom: 20px;
+}
+  .sidenav a {
+    color: white;
+    font-size: 20px;
+    font-style: serif;
+    padding-left: 35px;
+    width: 250px;
+    text-decoration: none;
+    display: block;
+    block-size: 30px;
+  } 
+
+.sidenav a:hover {
+    color: #4b5945;
+    background-color: white;
+    width: 100%;
+    display: block;
+    float: center;
+    block-size: 30px;
+  }
+
+
+.sidenav a.active {
+  background-color: white;
+  color: #4b5945;
+  width: 100%;
+}
+
+  .cardone {
+   width: 100%;
+  height: 250px;
+  background-color: white;
+  border-radius: 25px;
+  border: #4b5945 solid 1px;
+}
+
+  .cardtwo {
+   width: 100%;
+  height: 65%;
+  background-color: white;
+  border-radius: 25px;
+  border: #4b5945 solid 1px;
+}
+
+  .cardthree {
+   width: 100%;
+  height: 63%;
+  background-color: white;
+  border-radius: 25px;
+  border: #4b5945 solid 1px;
+}
+
+  .cardfour {
+   width: 100%;
+  height: 58%;
+  background-color: white;
+  border-radius: 25px;
+  border: #4b5945 solid 1px;
+}
+
+.cardfive {
+   width: 100%;
+  height: 58%;
+  background-color: white;
+  border-radius: 25px;
+  border: #4b5945 solid 1px;
+}
+
+.cardsix {
+   width: 100%;
+  height: 30%;
+  background-color: white;
+  border-radius: 25px;
+  border: #4b5945 solid 1px;
+}
+
+  iframe { 
+  float: right;
+  background-color: white;
+  padding-top: 15px;
+  padding-right: 11px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  border-radius: 15px;
+  height: 358px;
+  width: 39%;
+  border: none;
+  border: solid 2px #4b5945;
+  position: absolute;
+  left: 18%;
+}
+
+.button:hover{
+  color: #4b5945}
+
+button{ 
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  font-family: serif;
+  color: #fff;
+  background-color: #4b5945;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 4px #727272;
+  width: 250px;
+  height: auto;
+  margin-left: 680px;
+}
+
+.button:active {
+  background-color: #522546;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

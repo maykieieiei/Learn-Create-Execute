@@ -3,7 +3,7 @@
 <head>
     <title> HTML Basics</title> 
     <link rel="icon" type="image" href="LearnCreateExecute/DataSources/@logo1.png">
-     <link rel="stylesheet" href="H&P.css">
+     <link rel="stylesheet" href="Links.css">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>  
 
@@ -14,56 +14,52 @@
 
   <div class="header"> 
     <div class="cardone" style="border-radius: 15px;"> 
-    <h1> Learn HTML Head & Page Title </h1> <br>
+    <h1> Learn HTML Links </h1> <br>
   <br>
   <br>
   <br>
   <br>
-    <p> The head and page title  are where your html document ususally starts with. </p>
-
-  <p> The 
-        <code style="background-color: rgb(221, 220, 220); color: #C84361;">&lt;head&gt;</code> tag is seen in between the 
-        <code style="background-color: rgb(221, 220, 220); color: #C84361;">&lt;html&gt;</code> tag and before the 
-        <code style="background-color: rgb(221, 220, 220); color: #C84361;">&lt;body&gt;</code> tag in an HTML Document. </p>
-
+    <p> The HTML <code style="background-color: rgb(221, 220, 220); color: #C84361;">&lt;a&gt;</code> defines a hyperlink. It has the following syntax. </p>
     </div>
     <br> 
 
-    <div class="cardtwo">
-        <h1> Head and Page Title </h1>
-        <br>
-        <br>
-        <br>
-        <h2> Head: </h2> 
-    
-    <p>The element 
-        <code style="background-color: rgb(221, 220, 220); color: #C84361;">&lt;head&gt;</code> is the container of metadata (data about data). </p>
+    <div class="cardtwo"> 
+        <h2> HTML Links Syntax </h2> 
 
-<p> This element is placed between the 
-    <code style="background-color: rgb(221, 220, 220); color: #C84361;">&lt;html&gt;</code> element and the 
-    <code style="background-color: rgb(221, 220, 220); color: #C84361;">&lt;body&gt;</code> element. </p>
-    <br>
-    <iframe src="framehtml7.html"> 
+        <p> The most important attribute of 
+            <code style="background-color: rgb(221, 220, 220); color: #C84361;">&lt;a&gt;</code> is the 
+            <b style="color:#C84361;background-color: rgb(221, 220, 220);">href</b> 
+            atrribute where it indicates the link's destination. </p>
 
-    </iframe>
+        <p> The link text is the part that will be visible to the reader.  By clicking the link, will be sent to where the link is located.  </p> 
+        <iframe src="framehtml21.html">
+
+        </iframe>
     </div>
     <br>
 
     <div class="cardthree">
-        <h2>Page Title: </h2>
+        <h2> HTML Target Attribute </h2> 
 
-    <p>In every web, there should be a Page Title: <code style="background-color: rgb(221, 220, 220); color: #C84361;">&lt;title&gt;</code>. </p>
-    <p> The Page Title is placed inside the <code style="background-color: rgb(221, 220, 220); color: #C84361;">&lt;head&gt;</code> tag </p>
+    <p>By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.</p>
+    <p> The 
+    <b style="color:#C84361;background-color:  rgb(239, 240, 183);">target</b> attribute specifies where to open the linked document. The 
+    <b style="color: #C84361;background-color:  rgb(239, 240, 183);">target</b> attribute can have the following values: </p> 
+    
+    <ul style="list-style-type:circle">
+    <li><b style="color:#C84361;background-color:  rgb(239, 240, 183);">_self</b> - Deafult. Opens the link in the same window or tab online. </li> 
+    <li><b style="color: #C84361;background-color:  rgb(239, 240, 183);">_blank</b> - Opens the document in a new window or tab. </li>
+    <li><b style="color: #C84361;background-color:  rgb(239, 240, 183);">_parent</b> - Opens the document in the parent frame. </li>
+    <li><b style="color:#C84361;background-color:  rgb(239, 240, 183);">_top</b> - Opens the document in the full body of the window .</li>
+</ul>
 
-    <iframe src="framehtml8.html">
-
+    <iframe src="framehtml22.html">
 
     </iframe>
 
     </div>
-
     <br>
-    <div class="cardfour"> 
+     <div class="cardfour"> 
         <h1 style="text-align: center;"> Learn, Create & Execute </h1>
         <br>
         <br>
@@ -75,16 +71,16 @@
         <h2 style="text-align: center;"> References </h2>
 
     </div>
-    <br>
-    
+
+
     <div class="sidenav"> 
-<br> 
-  <p style="color: white; font-size: 25px; padding-left: 15px; margin-left: 20px;">Start HTML</p>
+    <br>
+  <p style="color: white; font-size: 25px; padding-left: 15px; margin-left: 20px;"> Start HTML</p>
 
   <a href="lesson1.html" > HTML Information </a> 
   <a href="htmlBasics.html"> HTML Basics </a> 
   <a href="Elements.html"> HTML Elements </a> 
-  <a class="active" href="H&P.html"> HTML Head & Page Title </a>
+  <a href="H&P.html"> HTML Head & Page Title </a>
   <a href="Attributes.html"> HTML Attributes </a>
   <a href="lesson1.html"> HTML Favicon </a>
   <a href="lesson1.html"> HTML Body </a>
@@ -94,7 +90,7 @@
   <a href="Formats.html"> HTML Formats </a>
   <a href="lesson1.html"> HTML Colors </a>
   <a href="lesson1.html"> HTML Layouts </a>
-  <a href="Links.html"> HTML Links </a>
+  <a class="active" href="Links.html"> HTML Links </a>
   <a href="lesson1.html"> HTML Images </a>
   <a href="lesson1.html"> HTML Lists </a>
   <a href="lesson1.html"> HTML Tables </a>
@@ -113,7 +109,7 @@
   <a href="lesson1.html"> HTML Favicon </a>
   <a href="lesson1.html"> HTML Body </a>
   <a href="lesson1.html"> HTML Headings </a>
-  <a href="lesson1.html"> HTML Paragraphs </a>
+  <a href="Paragraph.html"> HTML Paragraphs </a>
   <a href="lesson1.html"> HTML Styles </a>
   <a href="lesson1.html"> HTML Formats </a>
   <a href="lesson1.html"> HTML Comments </a>
@@ -129,3 +125,5 @@
   <a href="lesson1.html"> HTML File Paths </a>
 </div>
 
+</body>
+</html>

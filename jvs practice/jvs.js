@@ -14,16 +14,17 @@ let realAge = false
 
 // Exercises (variable eexamples)
 let fullName = "Mayki Patootie"; 
-let age = 18;
+// let age = 18;
 let aStudent = true; 
 let enrolled = true;
 
 document.getElementById("P1").textContent = fullName;
-document.getElementById("P2").textContent = age;
+// document.getElementById("P2").textContent = age;
 document.getElementById("P3").textContent = aStudent;
 document.getElementById("P4").textContent = enrolled;
 
-//arithmetic operations 
+    //arithmetic operations 
+
 // operators are -> + plus - minus * multiplication / division 
 // operands are variables, values, etc.
 
@@ -39,13 +40,61 @@ let sand = 60;
 // sand = sand % 9;
 
 //shortcut 
-sand += 2;
-sand *=3;
+// sand += 2;
+// sand *=3;
+// same for every operators. 
+
+    //increment and decrement operator 
+sand++; // adds 1 from the amount
+sand--; // sutracts 1 ferom the amount
+
+   //operator precedence 
+/* 
+parenthesis 
+exponents
+multiplication, division & modulo 
+addition & subtraction
+*/
+
+let result = 1 + 4 * 9 + 8 ** 4;
+
+    // user input - window prompt
+
+let username;
+
+// username = window.prompt("What's your username?");
+
+    // user input - profesional way 
+
+document.getElementById("mySubmit").onclick = function(){
+    username = document.getElementById("myText").value;
+    document.getElementById("welcome").textContent = `Welcome, ${username}`;
+    // console.log(username);
+}
+
+    //type conversion = change datat type of another value (strings, nums, booleans)
+// let age = window.prompt("How old are you?");
+// age = Number(age);
+// age+=1;
+
+let x = "0";
+let y = " ";
+let z = "crayons";
+
+x = Number(x);
+y = String(y);
+z = Boolean(z);
+
 // console should always be on the bottom of everything 
-console.log(`You are ${age} years old.`);
+// console.log(`You are ${age} years old.`);
 console.log(`Your first name is ${firstName}, and your last name is ${lastName}.`);
 console.log(`Your favorite food is ${favoriteFood}.`);
 console.log(`Is yor real name ${firstName}: ${realName}`);
-console.log(`Is your real age ${age}: ${realAge} `);
-console.log(`You have ${sand} inside your jar.`)
-
+// console.log(`Is your real age ${age}: ${realAge} `);
+console.log(`You have ${sand} inside your jar.`);
+console.log(result);
+console.log(username);
+// console.log(age, typeof age); // typeof <varaible name> shows what type of variable it is. 
+console.log(x, typeof x);
+console.log(y, typeof y);
+console.log(z, typeof z);

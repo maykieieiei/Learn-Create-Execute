@@ -18,3 +18,16 @@
 .button:hover{ 
     background-color: rgb(19, 1, 1);
 }
+
+#myBtn { 
+    text-align: center;
+    background-color: white;
+    font-family: verdana; 
+    border-radius: 6px;
+    padding: 5px, 20px;
+}
+
+#myLbl { 
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

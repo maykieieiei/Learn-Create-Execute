@@ -107,6 +107,33 @@ resetBtn.onclick = function(){
     countLabel.textContent = count;
 }
 
+    // RAndom Number generator 
+// const max = 100;
+// const min = 5; 
+
+// let randomNum = Math.floor(Math.random() * max - min) + min;
+
+const myBtn = document.getElementById("myBtn"); 
+const myLbl = document.getElementById("myLbl"); 
+const min = 1;
+const max = 6; 
+let randomNum;
+
+myBtn.onclick = function(){
+    randomNum = Math.floor(Math.random() * max) + min;
+    myLbl.textContent = randomNum;
+}
+
+     //If statements 
+
+let time = 9;
+
+if(time < 12){
+    console.log("Good Morning");
+}
+else{
+    console.log("Good Afternoon");
+}
 
 
 // console should always be on the bottom of everything 
@@ -122,3 +149,4 @@ console.log(username);
 console.log(x, typeof x);
 console.log(y, typeof y);
 console.log(z, typeof z);
+console.log(randomNum);

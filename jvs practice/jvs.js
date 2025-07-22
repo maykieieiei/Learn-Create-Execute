@@ -128,12 +128,17 @@ myBtn.onclick = function(){
 
 let time = 9;
 
-if(time < 12){
-    console.log("Good Morning");
+if(time < 12){ // if the time is less than 9,
+    console.log("Good Morning"); // "Good morning" will be dislayed. 
 }
-else{
-    console.log("Good Afternoon");
+else{ // if the time is more than 9, 
+    console.log("Good Afternoon"); // "Good Afternoon" will be displayed.
 }
+
+    // ternary operator - if & else statement shortcuts
+
+let amount = 12
+let message = amount >= 10 ? "More than 10" : "Less than 10";
 
 
 // console should always be on the bottom of everything 
@@ -150,3 +155,4 @@ console.log(x, typeof x);
 console.log(y, typeof y);
 console.log(z, typeof z);
 console.log(randomNum);
+console.log(message)

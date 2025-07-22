@@ -140,19 +140,51 @@ else{ // if the time is more than 9,
 let amount = 12
 let message = amount >= 10 ? "More than 10" : "Less than 10";
 
+let purchaseAmount = 99; 
+let discount = purchaseAmount >= 100 ? 10 : 0;
 
 // console should always be on the bottom of everything 
 // console.log(`You are ${age} years old.`);
-console.log(`Your first name is ${firstName}, and your last name is ${lastName}.`);
-console.log(`Your favorite food is ${favoriteFood}.`);
-console.log(`Is yor real name ${firstName}: ${realName}`);
-// console.log(`Is your real age ${age}: ${realAge} `);
-console.log(`You have ${sand} inside your jar.`);
-console.log(result);
-console.log(username);
+console.log(`Your first name is ${firstName}, and your last name is ${lastName}.`); //string
+console.log(`Your favorite food is ${favoriteFood}.`); //string
+console.log(`Is yor real name ${firstName}: ${realName}`); //boolean
+// console.log(`Is your real age ${age}: ${realAge} `); //boolean
+console.log(`You have ${sand} inside your jar.`); //arithmetic operantions 
+console.log(result); //increment and decrement operator
+console.log(username); //user input 
 // console.log(age, typeof age); // typeof <varaible name> shows what type of variable it is. 
-console.log(x, typeof x);
-console.log(y, typeof y);
-console.log(z, typeof z);
-console.log(randomNum);
-console.log(message)
+console.log(x, typeof x); //type conversion
+console.log(y, typeof y); //type conversion
+console.log(z, typeof z); //type conversion
+console.log(randomNum); //Random Number Generator 
+console.log(message); //ternary operators 
+console.log(`Your total amount is $${purchaseAmount - purchaseAmount * (discount/100) }`); //ternary operator 
+
+    //switch - can be efficient replacement to many else statements
+
+let day = 3; 
+switch(day){
+    case 1:
+        console.log("It is Monday"); 
+        break; //breaks are there to break out the switch once there is a match.
+    case 2:
+        console.log("It is Tuesday");
+        break;  
+    case 3:
+        console.log("It is Wednesday");
+        break;
+}
+
+let testScore = 0;
+let letterGrade;
+
+switch(true){
+    case testScore >= 90:
+        letterGrade = "A";
+        break;
+    case testScore >= 80:
+        letterGrade = "B";
+        break;
+}
+
+console.log(letterGrade)

@@ -192,12 +192,36 @@ switch(true){
 console.log(letterGrade);
 
   
- // logical operator 
+    // logical operator 
+    //&& as "and"
 const temp = 20;
-if(temp > 0 && temp <= 30){
+if(temp > 0 && temp <= 30){ //use && as "and" both statements should be true.
     console.log("Weather is Good."); 
 }
 
 else{
-    console.log("Weather is NOT Good.")
+    console.log("Weather is NOT Good.") //if both the statements are false, this will appaer.
 }
+    //! as "not" - can change boolean from true to false by adding !
+const isSunny = true; 
+if(!isSunny){
+    console.log ("It is Cloudy");
+}
+
+else{ 
+    console.log("It is Sunny");
+}
+
+    //funtion - section of reusable code
+
+function happyBirthday(userName, age){
+    console.log("Happy Birthday to You!");
+    console.log("Happy Birthday to You!");
+    console.log(`Happy Birthday dear ${userName}`);
+    console.log("Happy Birthday to You!");
+    console.log(`You are now ${age} years old!`)
+}
+
+happyBirthday("Spongebob", 30);
+happyBirthday("Patrick", 30);
+

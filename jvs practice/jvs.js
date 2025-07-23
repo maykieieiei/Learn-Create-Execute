@@ -225,3 +225,22 @@ function happyBirthday(userName, age){
 happyBirthday("Spongebob", 30);
 happyBirthday("Patrick", 30);
 
+    //funcion - even or odd 
+
+function isEven(number){
+    if (number % 2 === 0){
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+console.log(isEven(9));
+
+    //funciton ternary shortcut 
+
+function isValidEmail(email){
+    return(email.includes("@")) ? true : false;
+}
+
+console.log(isValidEmail("mikeegmail.com"))

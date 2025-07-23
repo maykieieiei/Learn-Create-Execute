@@ -143,6 +143,8 @@ let message = amount >= 10 ? "More than 10" : "Less than 10";
 let purchaseAmount = 99; 
 let discount = purchaseAmount >= 100 ? 10 : 0;
 
+   
+
 // console should always be on the bottom of everything 
 // console.log(`You are ${age} years old.`);
 console.log(`Your first name is ${firstName}, and your last name is ${lastName}.`); //string
@@ -187,4 +189,15 @@ switch(true){
         break;
 }
 
-console.log(letterGrade)
+console.log(letterGrade);
+
+  
+ // logical operator 
+const temp = 20;
+if(temp > 0 && temp <= 30){
+    console.log("Weather is Good."); 
+}
+
+else{
+    console.log("Weather is NOT Good.")
+}

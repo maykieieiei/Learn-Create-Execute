@@ -243,4 +243,4 @@ function isValidEmail(email){
     return(email.includes("@")) ? true : false;
 }
 
-console.log(isValidEmail("mikeegmail.com"))
+console.log(isValidEmail("mikeegmail.com"));

@@ -244,3 +244,17 @@ function isValidEmail(email){
 }
 
 console.log(isValidEmail("mikeegmail.com"));
+    
+    // rest parameters 
+
+// rest parameters 
+function openFridge(...foods){
+    console.log(foods);
+}
+
+const food1 = "arm";
+const food2 = "leg";
+const food3 = "ear";
+const food4 = "forehead";
+
+openFridge(food1, food3);

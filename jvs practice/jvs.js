@@ -246,8 +246,7 @@ function isValidEmail(email){
 console.log(isValidEmail("mikeegmail.com"));
     
     // rest parameters 
-
-// rest parameters 
+ 
 function openFridge(...foods){
     console.log(foods);
 }
@@ -258,3 +257,8 @@ const food3 = "ear";
 const food4 = "forehead";
 
 openFridge(food1, food3);
+
+    //callbacks 
+function hello(){
+
+}

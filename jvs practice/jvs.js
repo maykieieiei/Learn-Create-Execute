@@ -269,3 +269,26 @@ function hello(callback){
 function goodbye(){
     console.log("Goodbye!");
 }
+
+    // forEach() 
+
+    function double(element, index, array){
+    array[index] = element * 2;
+}
+
+function triple(element, index, array){
+    array[index] = element * 3;
+}
+
+function square(element, index, array){
+    array[index] = Math.pow(element, 2);
+}
+
+function cube(element, index, array){
+    array[index] = Math.pow(element, 3);
+}
+
+function display(element){
+    console.log(element);
+}
+

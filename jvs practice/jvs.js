@@ -259,6 +259,13 @@ const food4 = "forehead";
 openFridge(food1, food3);
 
     //callbacks 
-function hello(){
+hello(goodbye);
 
+function hello(callback){
+    console.log("Hello!");
+    callback();
+}
+
+function goodbye(){
+    console.log("Goodbye!");
 }
